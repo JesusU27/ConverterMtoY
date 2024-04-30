@@ -24,8 +24,7 @@ function ChangeMeters(){
       let prediction = model.predict(tensor).dataSync();
        
       document.getElementById("lbl_convertion").textContent = `The conversion from ${meters} meters to yards is: `;
-
-      document.getElementById("lbl_convertion").textContent = "gaaa";
+        
       document.getElementById("label-result").value = prediction;
       
      
